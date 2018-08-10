@@ -23,3 +23,6 @@ docker run -d --privileged --hostname tale --name tale
 
 
 浏览器访问`127.0.0.1`即可
+
+
+docker exec -it 33 bash tale.sh log
