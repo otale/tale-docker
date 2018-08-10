@@ -26,3 +26,7 @@ docker run -d --privileged --hostname tale --name tale
 
 
 docker exec -it 33 bash tale.sh log
+
+docker run -d --privileged --hostname tale --name tale   -v /usr/local/webapp/tale:/webapp/tale  tale:1.0
+
+docker run -dit   -v /usr/local/webapp/tale:/webapp/tale  -p 127.0.0.1:80:9000  tale:7.0
