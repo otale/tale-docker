@@ -10,8 +10,9 @@ tale docker
     tale
     ├── lib
     ├── resources
-    └── tale-least.jar ``` 
-
+    └── tale-least.jar 
+    ``` 
+    
 将run.sh放到tale目录下，目录如下
 
 ``` 
