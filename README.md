@@ -29,7 +29,7 @@ tale docker
 ``` bash
 docker run -d --privileged --hostname tale --name tale 
 -v /etc/localtime:/etc/localtime:ro 
--v /home/tale:./tale -p 127.0.0.1:80:9000 
+-v /home/tale:/webapp/tale -p 127.0.0.1:80:9000 
 -m 1024m --memory-swap -1 tale:1.0 
 ```
 
