@@ -4,6 +4,8 @@ tale docker
 # 使用说明
 下载到本地,使用`docker build -t tale:1.0 . ` 命令构建tale镜像
 
+<p>点击 <a href="http://static.biezhi.me/tale-least.zip?1231" rel="nofollow">下载</a> 最新版的Tale程序，该程序是一个zip包，解压后的目录结构如下。</p>
+
 将tale*.jar,lib目录和resources目录放在宿主机的/home/tale目录下,之后使用下面的命令启动tale的docker容器
 
 ``` bash
