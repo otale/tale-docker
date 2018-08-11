@@ -6,13 +6,16 @@ tale docker
 
 <p>点击 <a href="http://static.biezhi.me/tale-least.zip?1231" rel="nofollow">下载</a> 最新版的Tale程序，该程序是一个zip包，解压后的目录结构如下。</p>
 
-``` tale
+``` 
+    tale
     ├── lib
     ├── resources
-    └── tale-least.jar``` 
+    └── tale-least.jar ``` 
 
 将run.sh放到tale目录下，目录如下
-``` tale
+
+``` 
+    tale
     ├── lib
     ├── resources
     ├── tale-least.jar
