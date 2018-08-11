@@ -33,11 +33,11 @@ docker run -d --privileged --hostname tale --name tale
 -m 1024m --memory-swap -1 tale:1.0 
 ```
 
-命令说明:
-- run -d                               #后台运行
-- v /etc/localtime:/etc/localtime:ro  #容器使用宿主机的时间
-- v /home/tale:/var/tale_home         #宿主机的/home/tale与容器的/var/tale_home关联,可自行修改***/home/tale***
-- p 127.0.0.1:80:9000                 #宿主机的80端口指向容器的9000端口
+命令说明:<br>
+- run -d                               #后台运行<br>
+- v /etc/localtime:/etc/localtime:ro  #容器使用宿主机的时间<br>
+- v /home/tale:/var/tale_home         #宿主机的/home/tale与容器的/var/tale_home关联,可自行修改***/home/tale*** <br>
+- p 127.0.0.1:80:9000                 #宿主机的80端口指向容器的9000端口 <br>
 -m 1024m --memory-swap -1             #指定限制内存大小并且设置memory-swap值为-1，表示容器程序使用内存受限，而交换空间使用不受限制（宿主                                          交换支持使用多少则容器即可使用多少。如果--memory-swap设置小于--memory则设置不生效，使用默认设置）
 
 
