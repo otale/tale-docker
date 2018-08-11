@@ -44,9 +44,9 @@ docker run -d --privileged --hostname tale --name tale
 
 浏览器访问`127.0.0.1`即可
 
-一些使用说明
-docker exec -it 容器id bash  ./tale/tale.sh log   查看容器内应用日志同 docker logs -f 容器id,当然你在宿主机tale log目录 tali -f 也可以看到
-docker exec -it 容器id bash  ./tale/tale.sh status 容器tale状态
-docker exec -it 容器id  bash ./tale/tale.sh reload 重启容器内应用
-docker exec -it 容器id  bash ./tale/tale.sh stop   关掉容器内tale应用
-docker exec -it 容器id  bash ./tale/tale.sh start  开启容器内tale应用
+一些使用说明<br>
+docker exec -it 容器id bash  ./tale/tale.sh log   查看容器内应用日志同 docker logs -f 容器id,当然你在宿主机tale log目录 tali -f 也可以看到<br>
+docker exec -it 容器id bash  ./tale/tale.sh status 容器tale状态<br>
+docker exec -it 容器id  bash ./tale/tale.sh reload 重启容器内应用<br>
+docker exec -it 容器id  bash ./tale/tale.sh stop   关掉容器内tale应用<br>
+docker exec -it 容器id  bash ./tale/tale.sh start  开启容器内tale应用<br>
