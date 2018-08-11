@@ -30,9 +30,9 @@ startup(){
     else
         jar_path=`find .. -name 'tale*.jar'`
         echo "jarfile=$jar_path"
-        cmd="java $1 -Djava.security.egd=file:/dev/./urandom  -jar $jar_path > ./tale.out < /dev/null &"
+        cmd="java $1 -Djava.security.egd=file:/dev/./urandom  -jar $jar_path > ./tale/tale.out < /dev/null &"
         echo "cmd: $cmd"
-        java $1 -Djava.security.egd=file:/dev/./urandom  -jar $jar_path > ./tale.out < /dev/null &
+        java $1 -Djava.security.egd=file:/dev/./urandom  -jar $jar_path > ./tale/tale.out < /dev/null &
         show_log
     fi
 }
@@ -49,7 +49,7 @@ shut_down(){
 }
 
 show_log(){
-    tail -f tale.out
+    tail -f ./tale/tale.out
 }
 
 show_help(){
