@@ -1,6 +1,6 @@
 #!/bin/bash
 # author:datayang
-#url:https://github.com/datayang/tale-docker/edit/master/run.sh
+#url:https://github.com/datayang/tale-docker/edit/master/tale.sh
 #reference:https://github.com/otale/scripts
 
 
