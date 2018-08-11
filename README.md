@@ -13,7 +13,8 @@ tale docker
     └── tale-least.jar 
     ``` 
     
-将run.sh放到tale目录下，目录如下
+修改tale/resource/app.properties文件com.blade.logger.logFile=./tale/logs/tale.log
+将run.sh放到tale目录下，目录如下,
 
 ``` 
     tale
