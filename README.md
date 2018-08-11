@@ -21,7 +21,7 @@ tale docker
     ├── lib
     ├── resources
     ├── tale-least.jar
-    └── run.sh``` 
+    └── tale.sh``` 
 
 # 如果觉得配置麻烦，提供一键包欢迎使用
 将tale目录放在宿主机的/home目录下,之后使用下面的命令启动tale的docker容器
