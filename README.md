@@ -51,5 +51,5 @@ docker exec -it 容器id  bash ./tale/tale.sh reload 重启容器内应用<br>
 docker exec -it 容器id  bash ./tale/tale.sh stop   关掉容器内tale应用<br>
 docker exec -it 容器id  bash ./tale/tale.sh start  开启容器内tale应用<br>
 
-#添加docker-compose文件
+# 添加docker-compose文件
 我这里有了docker-compse就不需要dockerfile了 : )
