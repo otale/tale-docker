@@ -3,7 +3,7 @@ version: '3.2'
 
 services:
   web:
-    image: docker.io/openjdk:8u121-jdk
+    build: .
     tty: true 
     working_dir: /webapp/
     ports:
