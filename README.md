@@ -53,3 +53,5 @@ docker exec -it 容器id  bash ./tale/tale.sh start  开启容器内tale应用<b
 
 # 添加docker-compose文件
 我这里有了docker-compse就不需要dockerfile了 : )
+
+docker-compose_v2.yaml 是配合Dockerfile使用
