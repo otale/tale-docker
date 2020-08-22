@@ -1,0 +1,16 @@
+version: '3.2'
+
+
+services:
+  web:
+    build: .
+    #tty: true 
+    working_dir: /webapp/
+    ports:
+      - '9000:9000'
+
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /usr/local/webapp/dockerTale/tale:/webapp/tale
+
+    command: ./tale/tale.sh start 
